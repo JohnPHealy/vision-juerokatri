@@ -15,11 +15,11 @@ C:/Users/juero/Documents/GitHub/vision-juerokatri/Vision
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51627
+50470
 Successfully changed project path to: C:/Users/juero/Documents/GitHub/vision-juerokatri/Vision
 C:/Users/juero/Documents/GitHub/vision-juerokatri/Vision
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 48.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001764 seconds.
+Registered in 0.001930 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.07 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.958 seconds
+- Completed reload, in  0.973 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000994 seconds.
+Registered in 0.001082 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.92 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.930 seconds
+- Completed reload, in  1.009 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2243 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.8 MB.
-System memory in use after: 99.8 MB.
+System memory in use before: 99.9 MB.
+System memory in use after: 99.9 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2686.
-Total: 2.350800 ms (FindLiveObjects: 0.318400 ms CreateObjectMapping: 0.163900 ms MarkObjects: 1.742100 ms  DeleteObjects: 0.125600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/unity animator.png
-  artifactKey: Guid(8bcaf64472a794646984b87dee724c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity animator.png using Guid(8bcaf64472a794646984b87dee724c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f835d1f73ccf4a2e6b02da3dc9e0cdbc') in 0.112563 seconds
-  Import took 0.116595 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2689.
+Total: 2.056900 ms (FindLiveObjects: 0.255700 ms CreateObjectMapping: 0.160700 ms MarkObjects: 1.563300 ms  DeleteObjects: 0.076600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.747572 seconds.
-  path: Assets/unity animator.png
-  artifactKey: Guid(8bcaf64472a794646984b87dee724c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity animator.png using Guid(8bcaf64472a794646984b87dee724c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a5e806c8d146645e60f3eb4ae1e4f3') in 0.014625 seconds
-  Import took 0.019694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 157.766146 seconds.
-  path: Assets/unity animator.png
-  artifactKey: Guid(8bcaf64472a794646984b87dee724c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity animator.png using Guid(8bcaf64472a794646984b87dee724c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc33d52cd27128c355a5deddfbb3858c') in 0.053790 seconds
-  Import took 0.058146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 476.874234 seconds.
-  path: Assets/unity animator.png
-  artifactKey: Guid(8bcaf64472a794646984b87dee724c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity animator.png using Guid(8bcaf64472a794646984b87dee724c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503679d8f679fdf53c22c30eda508988') in 0.034319 seconds
-  Import took 0.039379 seconds .
+  path: Assets/Animations/body.controller
+  artifactKey: Guid(99e90b7bf7543744594aba7cf600ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/body.controller using Guid(99e90b7bf7543744594aba7cf600ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6a8eee632200f14375c687f60c9eb7') in 0.064215 seconds
+  Import took 0.069238 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
