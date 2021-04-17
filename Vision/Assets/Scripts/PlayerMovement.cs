@@ -14,10 +14,13 @@ public class PlayerMovement : MonoBehaviour
     private float moveDir;
     private Rigidbody2D myRB;
     private bool canJump;
+    private bool canDoubleJump;
     private SpriteRenderer mySprite;
-
+    public Transform animatorTransform;
+    private Animator anim;
     private void Start()
     {
+        anim = GetComponentInChildren<Animator>();
         myRB = GetComponent<Rigidbody2D>();
         mySprite = GetComponentInChildren<SpriteRenderer>();
     }
@@ -26,12 +29,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (moveDir > 0)
         {
-            mySprite.flipX = false;
+            animatorTransform.localScale = new Vector3 (1, animatorTransform.localScale.y, animatorTransform.localScale.z);
         }
 
-        if (moveDir < 0)
+        else if (moveDir < 0)
         {
-            mySprite.flipX = true;
+            animatorTransform.localScale = new Vector3 (-1, animatorTransform.localScale.y, animatorTransform.localScale.z);
         }
         var moveAxis = Vector3.right * moveDir;
 
@@ -43,12 +46,22 @@ public class PlayerMovement : MonoBehaviour
         if (groundCheck.IsTouchingLayers(groundLayers))
         {
             canJump = true;
+            canDoubleJump = true;
+        }
+        else if (canDoubleJump)
+        {
+            canJump = true;
+            canDoubleJump = false;
+        }
+
+        if (moveDir == 0)
+        {
+            anim.SetBool("isRunning", false);
         }
         else
         {
-            canJump = false;
+            anim.SetBool("isRunning", true);
         }
-
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -60,6 +73,7 @@ public class PlayerMovement : MonoBehaviour
     {
         moveDir = moveAmt;
     }
+    
 
     public void Jump(InputAction.CallbackContext context)
     {

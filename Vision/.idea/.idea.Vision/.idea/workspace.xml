@@ -10,6 +10,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/PlayerMovement2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+    </changedPaths>
+  </component>
   <component name="ProjectId" id="1qZICuur1LAt44kd2OVWVniIaTy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -17,22 +23,69 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="05b68247-ae89-48c3-96fa-1939631a541e" name="Default Changelist" comment="" />
       <created>1617280566157</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617280566157</updated>
       <workItem from="1617280576693" duration="1000" />
       <workItem from="1618310255482" duration="1000" />
+      <workItem from="1618655923056" duration="24000" />
+      <workItem from="1618656014036" duration="420000" />
+      <workItem from="1618656482581" duration="131000" />
+      <workItem from="1618656709036" duration="89000" />
+      <workItem from="1618656929186" duration="76000" />
+      <workItem from="1618658707424" duration="14000" />
+      <workItem from="1618658843901" duration="25000" />
+      <workItem from="1618659085280" duration="2000" />
+      <workItem from="1618659247696" duration="5000" />
+      <workItem from="1618659386438" duration="21000" />
+      <workItem from="1618659882633" duration="24000" />
+      <workItem from="1618660243471" duration="29000" />
+      <workItem from="1618661301150" duration="63000" />
+      <workItem from="1618661383292" duration="65000" />
+      <workItem from="1618664942426" duration="7000" />
+      <workItem from="1618665026839" duration="139000" />
+      <workItem from="1618668750837" duration="545000" />
+      <workItem from="1618669519311" duration="1821000" />
     </task>
     <servers />
   </component>
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
