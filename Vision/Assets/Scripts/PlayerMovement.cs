@@ -14,7 +14,6 @@ public class PlayerMovement : MonoBehaviour
     private float moveDir;
     private Rigidbody2D myRB;
     private bool canJump;
-    private bool canDoubleJump;
     private SpriteRenderer mySprite;
     public Transform animatorTransform;
     private Animator anim;
@@ -46,12 +45,13 @@ public class PlayerMovement : MonoBehaviour
         if (groundCheck.IsTouchingLayers(groundLayers))
         {
             canJump = true;
-            canDoubleJump = true;
+            anim.SetBool("isJumping", false);
+            anim.SetBool("takeOff", false);
         }
-        else if (canDoubleJump)
+        else
         {
-            canJump = true;
-            canDoubleJump = false;
+            anim.SetBool("isJumping", true);
+            canJump = false;
         }
 
         if (moveDir == 0)
@@ -83,6 +83,12 @@ public class PlayerMovement : MonoBehaviour
             {
                 myRB.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
                 canJump = false;
+                anim.SetBool("takeOff",true);
+                anim.SetBool("isJumping", false);
+            }
+            else
+            {
+                anim.SetBool("isJumping", true);
             }
         }
 
