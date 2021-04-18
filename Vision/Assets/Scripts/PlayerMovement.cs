@@ -83,24 +83,27 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
-        if (canJump)
+        if (!startCutscene.isCutsceneOn)
         {
-            if (context.started)
+            if (canJump)
             {
-                myRB.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
-                canJump = false;
-                anim.SetBool("takeOff",true);
-                anim.SetBool("isJumping", false);
+                if (context.started)
+                {
+                    myRB.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+                    canJump = false;
+                    anim.SetBool("takeOff", true);
+                    anim.SetBool("isJumping", false);
+                }
+                else
+                {
+                    anim.SetBool("isJumping", true);
+                }
             }
-            else
-            {
-                anim.SetBool("isJumping", true);
-            }
-        }
 
-        if (context.canceled && cancelJumpEnabled)
-        {
-            myRB.velocity = new Vector2(myRB.velocity.x, 0f);
+            if (context.canceled && cancelJumpEnabled)
+            {
+                myRB.velocity = new Vector2(myRB.velocity.x, 0f);
+            }
         }
     }
 }
