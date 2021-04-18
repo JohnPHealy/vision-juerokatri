@@ -13,7 +13,9 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PlayerMovement2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/startCutscene.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qZICuur1LAt44kd2OVWVniIaTy" />
@@ -83,6 +85,8 @@
       <workItem from="1618680567285" duration="35000" />
       <workItem from="1618690872145" duration="9000" />
       <workItem from="1618691045597" duration="621000" />
+      <workItem from="1618745496255" duration="91000" />
+      <workItem from="1618747106020" duration="1780000" />
     </task>
     <servers />
   </component>

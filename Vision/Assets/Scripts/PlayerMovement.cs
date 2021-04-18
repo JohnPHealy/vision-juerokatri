@@ -26,41 +26,47 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (moveDir > 0)
+        if (!startCutscene.isCutsceneOn)
         {
-            animatorTransform.localScale = new Vector3 (1, animatorTransform.localScale.y, animatorTransform.localScale.z);
-        }
+            if (moveDir > 0)
+            {
+                animatorTransform.localScale =
+                    new Vector3(1, animatorTransform.localScale.y, animatorTransform.localScale.z);
+            }
 
-        else if (moveDir < 0)
-        {
-            animatorTransform.localScale = new Vector3 (-1, animatorTransform.localScale.y, animatorTransform.localScale.z);
-        }
-        var moveAxis = Vector3.right * moveDir;
+            else if (moveDir < 0)
+            {
+                animatorTransform.localScale =
+                    new Vector3(-1, animatorTransform.localScale.y, animatorTransform.localScale.z);
+            }
 
-        if (Mathf.Abs(myRB.velocity.x) < maxSpeed)
-        {
-            myRB.AddForce(moveAxis * moveSpeed, ForceMode2D.Force);
-        }
+            var moveAxis = Vector3.right * moveDir;
 
-        if (groundCheck.IsTouchingLayers(groundLayers))
-        {
-            canJump = true;
-            anim.SetBool("isJumping", false);
-            anim.SetBool("takeOff", false);
-        }
-        else
-        {
-            anim.SetBool("isJumping", true);
-            canJump = false;
-        }
+            if (Mathf.Abs(myRB.velocity.x) < maxSpeed)
+            {
+                myRB.AddForce(moveAxis * moveSpeed, ForceMode2D.Force);
+            }
 
-        if (moveDir == 0)
-        {
-            anim.SetBool("isRunning", false);
-        }
-        else
-        {
-            anim.SetBool("isRunning", true);
+            if (groundCheck.IsTouchingLayers(groundLayers))
+            {
+                canJump = true;
+                anim.SetBool("isJumping", false);
+                anim.SetBool("takeOff", false);
+            }
+            else
+            {
+                anim.SetBool("isJumping", true);
+                canJump = false;
+            }
+
+            if (moveDir == 0)
+            {
+                anim.SetBool("isRunning", false);
+            }
+            else
+            {
+                anim.SetBool("isRunning", true);
+            }
         }
     }
 
