@@ -13,10 +13,17 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PlayerMovement2.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/startCutscene.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectActivator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectActive.cs" />
+      <option value="$PROJECT_DIR$/Assets/objectActivator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/triggers/SceneAction.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/triggers/ActionDialogue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/triggers/ActionTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCombat.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qZICuur1LAt44kd2OVWVniIaTy" />
@@ -34,6 +41,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/crisisbuild\Vision.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\juero\Documents\GitHub\vision-juerokatri\Vision\crisisbuild" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -89,6 +104,11 @@
       <workItem from="1618745496255" duration="91000" />
       <workItem from="1618747106020" duration="1780000" />
       <workItem from="1618750801897" duration="3962000" />
+      <workItem from="1618919373895" duration="282000" />
+      <workItem from="1618919699561" duration="259000" />
+      <workItem from="1618920006802" duration="1870000" />
+      <workItem from="1619005149793" duration="125000" />
+      <workItem from="1619005321784" duration="1061000" />
     </task>
     <servers />
   </component>

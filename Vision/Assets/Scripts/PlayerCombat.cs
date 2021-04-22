@@ -14,7 +14,7 @@ public class PlayerCombat : MonoBehaviour
     {
         if (playerCheck.IsTouchingLayers(playerLayers))
         {
-            Destroy(gameObject);
+            manager.RespawnPlayer();
         }
     }
 

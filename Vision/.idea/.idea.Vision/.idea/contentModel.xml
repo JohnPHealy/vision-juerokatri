@@ -9,18 +9,21 @@
         <e p="Scripts" t="Include">
           <e p="AIPatrol.cs" t="Include" />
           <e p="AnimationScriptUsingAddForce.cs" t="Include" />
-          <e p="CollectedPage.cs" t="Include" />
           <e p="Dialogue.cs" t="Include" />
-          <e p="EndTrigger.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="GroundCheckScript.cs" t="Include" />
-          <e p="LevelComplete.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="ParallaxScript.cs" t="Include" />
           <e p="PlayerCombat.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="startCutscene.cs" t="Include" />
+          <e p="triggers" t="Include">
+            <e p="ActionDialogue.cs" t="Include" />
+            <e p="ActionTrigger.cs" t="Include" />
+            <e p="objectActivator.cs" t="Include" />
+            <e p="SceneAction.cs" t="Include" />
+          </e>
         </e>
-        <e p="startCutscene.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />

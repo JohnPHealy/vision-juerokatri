@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Home Screen UI.unity
+    guid: d2286f1c06a2d5442b98977a0e55867a
+  - enabled: 1
+    path: Assets/Scenes/CrisisWorld.unity
+    guid: 0b14ae8b3c142254ea04a3a4658e9104
   m_configObjects: {}
