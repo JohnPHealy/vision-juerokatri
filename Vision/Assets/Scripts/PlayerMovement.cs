@@ -68,6 +68,12 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetBool("isRunning", true);
             }
         }
+        else
+        {
+            anim.SetBool("isRunning", false);
+            anim.SetBool("isJumping", false);
+            anim.SetBool("takeOff", false);
+        }
     }
 
     public void Move(InputAction.CallbackContext context)

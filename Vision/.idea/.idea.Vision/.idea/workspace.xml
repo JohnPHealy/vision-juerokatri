@@ -14,7 +14,6 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PlayerMovement2.cs" />
       <option value="$PROJECT_DIR$/Assets/startCutscene.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectActivator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectActive.cs" />
@@ -30,6 +29,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DontLookDown.cs" />
       <option value="$PROJECT_DIR$/Assets/dialooog.cs" />
       <option value="$PROJECT_DIR$/Assets/EnteringThing.cs" />
+      <option value="$PROJECT_DIR$/Assets/start.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/enternextscene.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qZICuur1LAt44kd2OVWVniIaTy" />
@@ -120,6 +122,9 @@
       <workItem from="1619877594611" duration="1263000" />
       <workItem from="1619878895067" duration="269000" />
       <workItem from="1619879541911" duration="1116000" />
+      <workItem from="1619887226922" duration="281000" />
+      <workItem from="1619888754380" duration="741000" />
+      <workItem from="1619890195663" duration="579000" />
     </task>
     <servers />
   </component>
