@@ -6,9 +6,11 @@
     <e p="C:\Users\juero\Documents\GitHub\vision-juerokatri\Vision" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="EnteringThing.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AIPatrol.cs" t="Include" />
           <e p="AnimationScriptUsingAddForce.cs" t="Include" />
+          <e p="CinemachineSwitcher.cs" t="Include" />
           <e p="Dialogue.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="GroundCheckScript.cs" t="Include" />

@@ -24,6 +24,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/triggers/ActionTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCombat.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CinemachineSwitcher.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Don't Look Down Dialogue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DontLookDown.cs" />
+      <option value="$PROJECT_DIR$/Assets/dialooog.cs" />
+      <option value="$PROJECT_DIR$/Assets/EnteringThing.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qZICuur1LAt44kd2OVWVniIaTy" />
@@ -110,6 +116,10 @@
       <workItem from="1619005149793" duration="125000" />
       <workItem from="1619005321784" duration="1061000" />
       <workItem from="1619696918909" duration="1000" />
+      <workItem from="1619872551353" duration="1000" />
+      <workItem from="1619877594611" duration="1263000" />
+      <workItem from="1619878895067" duration="269000" />
+      <workItem from="1619879541911" duration="1116000" />
     </task>
     <servers />
   </component>
