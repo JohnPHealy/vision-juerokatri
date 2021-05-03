@@ -304,7 +304,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &298984364
 GameObject:
@@ -387,7 +387,7 @@ Transform:
   - {fileID: 1009767963}
   - {fileID: 1126425356}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &300956980 stripped
 Transform:
@@ -1110,7 +1110,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &996604060 stripped
 GameObject:
@@ -1221,108 +1221,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1965194067}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1250392126
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1250392128}
-  - component: {fileID: 1250392127}
-  - component: {fileID: 1250392129}
-  m_Layer: 0
-  m_Name: portal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1250392127
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250392126}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 72a1588d75937604e9c42c811c013553, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.24, y: 10.24}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1250392128
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250392126}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.52, y: -5, z: 4.2327766}
-  m_LocalScale: {x: 3, y: 3, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1250392129
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250392126}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 668e1eb82b3944f4d99186b60a49f9ec, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1302598943
 GameObject:
   m_ObjectHideFlags: 0
@@ -2401,8 +2299,77 @@ Transform:
   - {fileID: 1426950761}
   - {fileID: 107701528}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2073679338
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 505800308440562565, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_Name
+      value: Portal
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 105.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 505800308440562569, guid: 440192ab7dd79214e863f2892fb0d5f8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 440192ab7dd79214e863f2892fb0d5f8, type: 3}
 --- !u!1001 &11382517261904510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2413,7 +2380,7 @@ PrefabInstance:
     - target: {fileID: 11382516469295551, guid: 265b2e8f63bf41f4aa3c535f0c48e53f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11382516469295551, guid: 265b2e8f63bf41f4aa3c535f0c48e53f,
         type: 3}
@@ -2507,7 +2474,7 @@ PrefabInstance:
     - target: {fileID: 349523401305231227, guid: 818161b1bf24f7447955c4ab1df9f70a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 349523401305231227, guid: 818161b1bf24f7447955c4ab1df9f70a,
         type: 3}
@@ -2946,10 +2913,30 @@ PrefabInstance:
       propertyPath: continueButton
       value: 
       objectReference: {fileID: 1011107502}
+    - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
+        type: 3}
+      propertyPath: sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
+        type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: I...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
+        type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: I have to be dreaming.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
+        type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: I'll just keep going through these portals, and I'll wake up.
+      objectReference: {fileID: 0}
     - target: {fileID: 3208282143656726048, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656726048, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
