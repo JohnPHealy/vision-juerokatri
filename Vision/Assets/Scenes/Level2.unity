@@ -596,6 +596,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7049314310501750603, guid: 22f88c9b3e364f749b91148aa7edde8c,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7049314310501750603, guid: 22f88c9b3e364f749b91148aa7edde8c,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 24
+      objectReference: {fileID: 0}
     - target: {fileID: 7049314310501750604, guid: 22f88c9b3e364f749b91148aa7edde8c,
         type: 3}
       propertyPath: m_RootOrder

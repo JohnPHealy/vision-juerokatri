@@ -14,18 +14,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6750574320416680304, guid: bb9be1a7a54709045afae0297c40a493,
         type: 3}
+      propertyPath: m_Size.y
+      value: 0.08295244
+      objectReference: {fileID: 0}
+    - target: {fileID: 6750574320416680304, guid: bb9be1a7a54709045afae0297c40a493,
+        type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 6200000, guid: 50dac00fbd9eb5641a8083b5308a0d1d, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 6750574320416680304, guid: bb9be1a7a54709045afae0297c40a493,
         type: 3}
       propertyPath: m_Offset.x
       value: 0.060594916
       objectReference: {fileID: 0}
+    - target: {fileID: 6750574320416680304, guid: bb9be1a7a54709045afae0297c40a493,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.45852378
+      objectReference: {fileID: 0}
     - target: {fileID: 6750574320416680305, guid: bb9be1a7a54709045afae0297c40a493,
         type: 3}
       propertyPath: m_Name
-      value: Ground
+      value: Ground Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6750574320416680311, guid: bb9be1a7a54709045afae0297c40a493,
         type: 3}

@@ -249,7 +249,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 746879598}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c34d543b07d32dd408e1928ea5575859, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: c9bc9605fb2926344860ecb0cc996f82, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -513,8 +513,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 805, y: -460.85852}
-  m_SizeDelta: {x: 160, y: 89.717}
+  m_AnchoredPosition: {x: 718.0122, y: -460.85852}
+  m_SizeDelta: {x: 333.9757, y: 89.717}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2117635886
 MonoBehaviour:
@@ -667,7 +667,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Next
+  m_text: End Cutscene
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 709cf4db3c5ba7d4fa7e2724395dc696, type: 2}
   m_sharedMaterial: {fileID: -2749039404586265411, guid: 709cf4db3c5ba7d4fa7e2724395dc696,
@@ -811,6 +811,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236848128524046527, guid: 50cfcea0624dec44bb58014f1f68d67f,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.084905684
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236848128524046527, guid: 50cfcea0624dec44bb58014f1f68d67f,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.07775901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236848128524046527, guid: 50cfcea0624dec44bb58014f1f68d67f,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.073211126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50cfcea0624dec44bb58014f1f68d67f, type: 3}

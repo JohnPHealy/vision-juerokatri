@@ -240,12 +240,17 @@ PrefabInstance:
     - target: {fileID: 7743683748218418194, guid: 923203daaa40f4c47b8c81b745931fd4,
         type: 3}
       propertyPath: jumpForce
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7743683748218418194, guid: 923203daaa40f4c47b8c81b745931fd4,
         type: 3}
       propertyPath: moveSpeed
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7743683748218418196, guid: 923203daaa40f4c47b8c81b745931fd4,
+        type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7743683748218418197, guid: 923203daaa40f4c47b8c81b745931fd4,
         type: 3}
@@ -324,6 +329,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7743683748218418199, guid: 923203daaa40f4c47b8c81b745931fd4,
         type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7743683748218418199, guid: 923203daaa40f4c47b8c81b745931fd4,
+        type: 3}
       propertyPath: m_LinearDrag
       value: 1.3
       objectReference: {fileID: 0}
@@ -335,7 +345,7 @@ PrefabInstance:
     - target: {fileID: 7743683748218418199, guid: 923203daaa40f4c47b8c81b745931fd4,
         type: 3}
       propertyPath: m_GravityScale
-      value: 2.5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7743683748550218519, guid: 923203daaa40f4c47b8c81b745931fd4,
         type: 3}
