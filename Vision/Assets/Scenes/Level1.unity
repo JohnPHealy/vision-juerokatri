@@ -359,7 +359,7 @@ MonoBehaviour:
     m_ActivateAfter: 0
     m_MinDuration: 0
   m_DefaultBlend:
-    m_Style: 6
+    m_Style: 4
     m_Time: 3
     m_CustomCurve:
       serializedVersion: 2
@@ -2391,7 +2391,7 @@ PrefabInstance:
     - target: {fileID: 11382516469295551, guid: 265b2e8f63bf41f4aa3c535f0c48e53f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.04
+      value: -3.52
       objectReference: {fileID: 0}
     - target: {fileID: 11382516469295551, guid: 265b2e8f63bf41f4aa3c535f0c48e53f,
         type: 3}
