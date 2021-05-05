@@ -39,6 +39,7 @@
       <option value="$PROJECT_DIR$/Assets/PushDown.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PushDown.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueNextScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnteringThing.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qZICuur1LAt44kd2OVWVniIaTy" />
@@ -139,6 +140,7 @@
       <workItem from="1620169427703" duration="1000" />
       <workItem from="1620215269063" duration="516000" />
       <workItem from="1620215865958" duration="297000" />
+      <workItem from="1620238512201" duration="611000" />
     </task>
     <servers />
   </component>

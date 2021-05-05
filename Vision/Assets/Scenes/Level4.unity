@@ -1881,6 +1881,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: EvilSeymour
       objectReference: {fileID: 0}
+    - target: {fileID: 7743683748218418199, guid: 923203daaa40f4c47b8c81b745931fd4,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7743683748218418199, guid: 923203daaa40f4c47b8c81b745931fd4,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7743683748503893273, guid: 923203daaa40f4c47b8c81b745931fd4,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -2099,6 +2109,8 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7743683748218418195, guid: 923203daaa40f4c47b8c81b745931fd4, type: 3}
     - {fileID: 7743683748218418194, guid: 923203daaa40f4c47b8c81b745931fd4, type: 3}
+    - {fileID: 7743683748218418196, guid: 923203daaa40f4c47b8c81b745931fd4, type: 3}
+    - {fileID: 7743683748218418199, guid: 923203daaa40f4c47b8c81b745931fd4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 923203daaa40f4c47b8c81b745931fd4, type: 3}
 --- !u!4 &1189007935 stripped
 Transform:
@@ -3762,13 +3774,18 @@ PrefabInstance:
       objectReference: {fileID: 582260031}
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
+      propertyPath: typingSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
+        type: 3}
       propertyPath: continueButton
       value: 
       objectReference: {fileID: 1011107502}
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
       propertyPath: sentences.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
@@ -3778,12 +3795,12 @@ PrefabInstance:
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
       propertyPath: sentences.Array.data[1]
-      value: I have to be dreaming.
+      value: 'Wait where are you going? '
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
       propertyPath: sentences.Array.data[2]
-      value: I'll just keep going through these portals, and I'll wake up.
+      value: I guess I just have to go through the portal...
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656726048, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}

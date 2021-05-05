@@ -8,7 +8,6 @@ public class EnteringThing : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other)
     {
-        //Check if the object has the tag car
         if(other.tag == "Player")
         {
             //Activate the canvas

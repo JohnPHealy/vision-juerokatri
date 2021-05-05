@@ -1081,8 +1081,7 @@ PrefabInstance:
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
       propertyPath: sentences.Array.data[0]
-      value: Oh god, okay. A small gap. What is that liquid down there?I don't want
-        to know.
+      value: What is this? Acid? I don't even want to know.
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
@@ -1117,12 +1116,12 @@ PrefabInstance:
     - target: {fileID: 3208282143656726048, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.96
+      value: 32.86
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656726048, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.47
+      value: -5.4
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656726048, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
@@ -1231,7 +1230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492811306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.01, y: -0.2, z: -13.394131}
+  m_LocalPosition: {x: 32.77, y: -5.03, z: -13.394131}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1486,6 +1485,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 533764569}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &810017594 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8782905612048128434, guid: 8e83e66ed62b7764386c78070ad18c5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8782905610881834637}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &882227670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1996,8 +2007,7 @@ PrefabInstance:
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
       propertyPath: sentences.Array.data[3]
-      value: I won't look down. I'll just keep moving, with the left and right arrow
-        keys.
+      value: I won't look down.
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
@@ -3292,8 +3302,28 @@ PrefabInstance:
     - target: {fileID: 8782905611101328898, guid: 8e83e66ed62b7764386c78070ad18c5e,
         type: 3}
       propertyPath: m_ChildCameras.Array.size
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8782905611101328898, guid: 8e83e66ed62b7764386c78070ad18c5e,
+        type: 3}
+      propertyPath: m_Instructions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8782905611101328898, guid: 8e83e66ed62b7764386c78070ad18c5e,
+        type: 3}
+      propertyPath: m_ChildCameras.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8782905611101328898, guid: 8e83e66ed62b7764386c78070ad18c5e,
+        type: 3}
+      propertyPath: m_Instructions.Array.data[2].m_FullHash
+      value: 329558610
+      objectReference: {fileID: 0}
+    - target: {fileID: 8782905611101328898, guid: 8e83e66ed62b7764386c78070ad18c5e,
+        type: 3}
+      propertyPath: m_Instructions.Array.data[2].m_VirtualCamera
+      value: 
+      objectReference: {fileID: 810017594}
     - target: {fileID: 8782905611101328925, guid: 8e83e66ed62b7764386c78070ad18c5e,
         type: 3}
       propertyPath: m_RootOrder
