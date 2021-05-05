@@ -11,6 +11,7 @@
           <e p="AnimationScriptUsingAddForce.cs" t="Include" />
           <e p="CinemachineSwitcher.cs" t="Include" />
           <e p="Dialogue.cs" t="Include" />
+          <e p="DialogueNextScene.cs" t="Include" />
           <e p="EnteringThing.cs" t="Include" />
           <e p="enternextscene.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
@@ -22,11 +23,6 @@
           <e p="PushDown.cs" t="Include" />
           <e p="RestartLevel.cs" t="Include" />
           <e p="startCutscene.cs" t="Include" />
-          <e p="triggers" t="Include">
-            <e p="ActionTrigger.cs" t="Include" />
-            <e p="objectActivator.cs" t="Include" />
-            <e p="SceneAction.cs" t="Include" />
-          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

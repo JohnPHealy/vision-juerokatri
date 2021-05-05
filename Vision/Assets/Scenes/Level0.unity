@@ -492,12 +492,17 @@ PrefabInstance:
     - target: {fileID: 7049314310501750603, guid: 22f88c9b3e364f749b91148aa7edde8c,
         type: 3}
       propertyPath: maxSpeed
-      value: 24
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7049314310501750603, guid: 22f88c9b3e364f749b91148aa7edde8c,
+        type: 3}
+      propertyPath: jumpForce
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7049314310501750603, guid: 22f88c9b3e364f749b91148aa7edde8c,
         type: 3}
       propertyPath: moveSpeed
-      value: 24
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 7049314310501750604, guid: 22f88c9b3e364f749b91148aa7edde8c,
         type: 3}
@@ -573,6 +578,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7049314310501750606, guid: 22f88c9b3e364f749b91148aa7edde8c,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7049314310501750606, guid: 22f88c9b3e364f749b91148aa7edde8c,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 7049314310501750607, guid: 22f88c9b3e364f749b91148aa7edde8c,
         type: 3}
@@ -1937,6 +1952,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DialogueManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208282143656718814, guid: 81ba39c9a3d040c4cb916fbb1f954269,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
