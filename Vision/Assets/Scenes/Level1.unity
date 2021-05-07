@@ -2692,7 +2692,7 @@ PrefabInstance:
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
       propertyPath: sentences.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
@@ -2707,6 +2707,11 @@ PrefabInstance:
     - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
         type: 3}
       propertyPath: sentences.Array.data[2]
+      value: The fire is gone? And look at the city... It's destroyed!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208282143656718815, guid: 81ba39c9a3d040c4cb916fbb1f954269,
+        type: 3}
+      propertyPath: sentences.Array.data[3]
       value: I'll just keep going through these portals, and I'll wake up.
       objectReference: {fileID: 0}
     - target: {fileID: 3208282143656726048, guid: 81ba39c9a3d040c4cb916fbb1f954269,
